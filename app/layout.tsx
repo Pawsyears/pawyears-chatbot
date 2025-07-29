@@ -7,9 +7,9 @@ import './globals.css';
 import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
-  description: 'Next.js chatbot template using the AI SDK.',
+  metadataBase: new URL('https://pawsyears.com'),
+  title: 'PAWYears AI - Canine Health & Longevity Assistant',
+  description: `PAWYears AI chatbot for dog health, longevity, and wellness guidance from India's pioneering canine platform.`,
 };
 
 export const viewport = {
