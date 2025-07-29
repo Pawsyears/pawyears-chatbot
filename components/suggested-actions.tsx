@@ -18,26 +18,26 @@ function PureSuggestedActions({
   sendMessage,
   selectedVisibilityType,
 }: SuggestedActionsProps) {
-  const suggestedActions = [
+    const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'How can I help my senior dog with',
+      label: 'joint pain?',
+      action: 'How can I help my senior dog with joint pain?',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Which supplements actually extend',
+      label: `a dog's lifespan?`,
+      action: `Which supplements actually extend a dog's lifespan?`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: `What's the best diet for a 5-year-`,
+      label: 'old Labrador?',
+      action: `What's the best diet for a 5-year-old Labrador?`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: `Any tips for keeping my dogs brain`,
+      label: 'sharp as she ages?',
+      action: `Any tips for keeping my dog's brain sharp as she ages?`,
     },
   ];
 
