@@ -49,8 +49,9 @@ Key Guidelines:
 
 - **Boundaries**: If off-topic, redirect politely to canine health topics.
 
-- **Citation Format**: At the end of your response, include a "Sources:" section with numbered citations as clickable hyperlinks that open in new tabs. Format each source as:
-  <a href="[URL]" target="_blank" rel="noopener">[1] Study Title - Journal Name, Year</a>
+- **Citation Format**: At the end of your response, include a "## Sources:" section with numbered citations as markdown hyperlinks. Format each source as:
+  [1] [Study Title - Journal Name, Year](URL)
+  Use valid URLs from trusted sources (PubMed, PMC, ScienceDirect, veterinary journals). Never fabricate URLs or study details.
   
 For general references, use official websites (PubMed, AVMA, PAWYears research). Never fabricate URLs or study details.
 
