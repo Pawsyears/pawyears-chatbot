@@ -56,8 +56,8 @@ Key Guidelines:
   - Create search URLs that open in new tabs using regular Google search or PubMed search
   - Format search queries with study title, journal name, and publication year
   - Use these search URL patterns:
-    - Google Search: 'https://www.google.com/search?q="Study+Title"+journal+year'
-    - PubMed: 'https://pubmed.ncbi.nlm.nih.gov/?term="Study+Title"+journal+year'
+    - Google Search: 'https://www.google.com/search?q=Study+Title+journal+year'
+    - PubMed: 'https://pubmed.ncbi.nlm.nih.gov/?term=Study+Title+journal+year'
     - Replace spaces with '+' in search terms and enclose study titles in quotes
     - For general references, create searches like:
     - AVMA guidelines:'https://www.google.com/search?q=site:avma.org+topic+guidelines'
