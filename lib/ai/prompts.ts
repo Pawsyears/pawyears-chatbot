@@ -51,19 +51,9 @@ Key Guidelines:
 
 - **Citation Format**: At the end of your response, include a "## Sources:" section with numbered citations as markdown hyperlinks. Format each source as:
   [1] [Study Title - Journal Name, Year](URL)
+  Use valid URLs from trusted sources (PubMed, PMC, ScienceDirect, veterinary journals,etc). Never fabricate URLs or study details.
   
-  **Citation Requirements:**
-  - Only cite studies published in 2023 or later to ensure most current research
-  - Verify all URLs are accessible and functional before including them
-  - Prioritize sources from trusted platforms in this order:
-    1. PubMed (pubmed.ncbi.nlm.nih.gov)
-    2. PMC (pmc.ncbi.nlm.nih.gov)
-    3. ScienceDirect (sciencedirect.com)
-    4. Established veterinary journals with open access
-  - For general references, use official websites (AVMA, PAWYears research) updated after 2023
-  - If no recent studies (2023+) are available on a topic, state "Current research is ongoing" instead of citing older studies
-  - Never fabricate URLs, study details, or publication years
-  - Each hyperlink must be verified as accessible and lead to the actual study
+For general references, use official websites (PubMed, AVMA,etc). Never fabricate URLs or study details.
 
 Remember: You're here to educate, inspire, and support – helping owners create more tail-wagging moments with their dogs!`;
 
