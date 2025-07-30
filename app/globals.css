@@ -169,3 +169,7 @@
   background-repeat: no-repeat;
   background-color: transparent !important;
 }
+/* Dark Mode Background */
+.dark .bg-custom-image {
+  background-image: url('/images/dark.jpg'); /* path to dark mode image */
+}
