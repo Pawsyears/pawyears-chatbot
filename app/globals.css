@@ -100,7 +100,8 @@
     }
 
     body {
-        @apply text-foreground;
+        @apply text-foreground bg-custom-image;
+}
     }
 }
 
