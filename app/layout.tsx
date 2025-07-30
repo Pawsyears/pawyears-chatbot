@@ -70,7 +70,7 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <body className="antialiased">
+      <body className="antialiased bg-custom-image">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
