@@ -78,7 +78,7 @@ function PureChatHeader({
         <Link
           href="https://pawsyears.com/"
         >
-          <VercelIcon size={16} />
+          
           PAWSYears
         </Link>
       </Button>
