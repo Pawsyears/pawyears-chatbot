@@ -18,7 +18,7 @@ function PureSuggestedActions({
   sendMessage,
   selectedVisibilityType,
 }: SuggestedActionsProps) {
-    const suggestedActions = [
+  const suggestedActions = [
     {
       title: 'How can I help my senior dog with',
       label: 'joint pain?',
@@ -26,18 +26,18 @@ function PureSuggestedActions({
     },
     {
       title: 'Which supplements actually extend',
-      label: a dog's lifespan?,
-      action: Which supplements actually extend a dog's lifespan?,
+      label: "a dog's lifespan?",
+      action: "Which supplements actually extend a dog's lifespan?",
     },
     {
-      title: What's the best diet for a 5-year-,
+      title: "What's the best diet for a 5-year-",
       label: 'old Labrador?',
-      action: What's the best diet for a 5-year-old Labrador?,
+      action: "What's the best diet for a 5-year-old Labrador?",
     },
     {
-      title: Any tips for keeping my dogs brain,
+      title: 'Any tips for keeping my dogs brain',
       label: 'sharp as she ages?',
-      action: Any tips for keeping my dog's brain sharp as she ages?,
+      action: "Any tips for keeping my dog's brain sharp as she ages?",
     },
   ];
 
@@ -52,14 +52,13 @@ function PureSuggestedActions({
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
           transition={{ delay: 0.05 * index }}
-          key={suggested-action-${suggestedAction.title}-${index}}
+          key={`suggested-action-${suggestedAction.title}-${index}`}
           className={index > 1 ? 'hidden sm:block' : 'block'}
         >
           <Button
             variant="ghost"
             onClick={async () => {
-              window.history.replaceState({}, '', /chat/${chatId});
-
+              window.history.replaceState({}, '', `/chat/${chatId}`);
               sendMessage({
                 role: 'user',
                 parts: [{ type: 'text', text: suggestedAction.action }],
@@ -68,9 +67,7 @@ function PureSuggestedActions({
             className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start"
           >
             <span className="font-medium">{suggestedAction.title}</span>
-            <span className="text-muted-foreground">
-              {suggestedAction.label}
-            </span>
+            <span className="text-muted-foreground">{suggestedAction.label}</span>
           </Button>
         </motion.div>
       ))}
@@ -82,9 +79,7 @@ export const SuggestedActions = memo(
   PureSuggestedActions,
   (prevProps, nextProps) => {
     if (prevProps.chatId !== nextProps.chatId) return false;
-    if (prevProps.selectedVisibilityType !== nextProps.selectedVisibilityType)
-      return false;
-
+    if (prevProps.selectedVisibilityType !== nextProps.selectedVisibilityType) return false;
     return true;
-  },
+  }
 );
