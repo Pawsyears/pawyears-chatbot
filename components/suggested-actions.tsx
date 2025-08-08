@@ -26,25 +26,25 @@ function PureSuggestedActions({
     },
     {
       title: 'Which supplements actually extend',
-      label: `a dog's lifespan?`,
-      action: `Which supplements actually extend a dog's lifespan?`,
+      label: a dog's lifespan?,
+      action: Which supplements actually extend a dog's lifespan?,
     },
     {
-      title: `What's the best diet for a 5-year-`,
+      title: What's the best diet for a 5-year-,
       label: 'old Labrador?',
-      action: `What's the best diet for a 5-year-old Labrador?`,
+      action: What's the best diet for a 5-year-old Labrador?,
     },
     {
-      title: `Any tips for keeping my dogs brain`,
+      title: Any tips for keeping my dogs brain,
       label: 'sharp as she ages?',
-      action: `Any tips for keeping my dog's brain sharp as she ages?`,
+      action: Any tips for keeping my dog's brain sharp as she ages?,
     },
   ];
 
   return (
     <div
       data-testid="suggested-actions"
-      className="grid sm:grid-cols-2 gap-2 w-full glass p-4 rounded-2xl shadow-xl"
+      className="grid sm:grid-cols-2 gap-2 w-full"
     >
       {suggestedActions.map((suggestedAction, index) => (
         <motion.div
@@ -52,13 +52,13 @@ function PureSuggestedActions({
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 20 }}
           transition={{ delay: 0.05 * index }}
-          key={`suggested-action-${suggestedAction.title}-${index}`}
+          key={suggested-action-${suggestedAction.title}-${index}}
           className={index > 1 ? 'hidden sm:block' : 'block'}
         >
           <Button
             variant="ghost"
             onClick={async () => {
-              window.history.replaceState({}, '', `/chat/${chatId}`);
+              window.history.replaceState({}, '', /chat/${chatId});
 
               sendMessage({
                 role: 'user',
