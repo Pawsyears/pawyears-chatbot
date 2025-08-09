@@ -35,7 +35,7 @@ function PureSuggestedActions({
       action: "What's the best diet for a 5-year-old Labrador?",
     },
     {
-      title: 'Any tips for keeping my dogs brain',
+      title: "Any tips for keeping my dogs brain",
       label: 'sharp as she ages?',
       action: "Any tips for keeping my dog's brain sharp as she ages?",
     },
@@ -44,7 +44,7 @@ function PureSuggestedActions({
   return (
     <div
       data-testid="suggested-actions"
-      className="grid sm:grid-cols-2 gap-2 w-full"
+      className="grid sm:grid-cols-2 gap-3 w-full"
     >
       {suggestedActions.map((suggestedAction, index) => (
         <motion.div
@@ -64,7 +64,7 @@ function PureSuggestedActions({
                 parts: [{ type: 'text', text: suggestedAction.action }],
               });
             }}
-            className="text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start"
+            className="glass text-left border rounded-xl px-4 py-3.5 text-sm flex-1 gap-1 sm:flex-col w-full h-auto justify-start items-start transition-all duration-200 hover:scale-[1.02]"
           >
             <span className="font-medium">{suggestedAction.title}</span>
             <span className="text-muted-foreground">{suggestedAction.label}</span>
