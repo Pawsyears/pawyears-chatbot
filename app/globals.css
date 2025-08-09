@@ -173,3 +173,17 @@
 .dark .bg-custom-image {
   background-image: url('/images/dark.jpg'); /* path to dark mode image */
 }
+/* Frosted / glassmorphism effect */
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 32px 0 rgba(31, 38, 135, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.dark .glass {
+    background: rgba(32, 36, 40, 0.25);
+    border: 1px solid rgba(255,255,255,0.13);
+}
